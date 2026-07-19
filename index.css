@@ -1,0 +1,69 @@
+:root {
+    --green: #2e7d32;
+    --green-dark: #1b5e20;
+    --text: #243b2d;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: var(--text);
+    padding-top: 72px;
+}
+
+.navbar-brand {
+    letter-spacing: 0.5px;
+}
+
+.hero-section {
+    background: linear-gradient(135deg, #e8f5e9 0%, #c8e6c9 100%);
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+}
+
+.hero-section h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: var(--green-dark);
+    margin-bottom: 1rem;
+}
+
+.hero-section p {
+    font-size: 1.1rem;
+    max-width: 700px;
+    margin-bottom: 1.5rem;
+}
+
+.content-section {
+    padding: 80px 0;
+}
+
+.content-section h2 {
+    color: var(--green-dark);
+    margin-bottom: 1rem;
+}
+
+.navbar .nav-link.active {
+    font-weight: 600;
+    color: #fff !important;
+}
+
+#charity-list .card {
+    border: none;
+    border-radius: 16px;
+    box-shadow: 0 8px 24px rgba(46, 125, 50, 0.12);
+    transition: transform 0.2s ease;
+}
+
+#charity-list .card:hover {
+    transform: translateY(-4px);
+}
+
+#charity-list .card-title {
+    color: var(--green-dark);
+    font-weight: 700;
+}
+
+#charity-list .card-text {
+    color: #4b5b4f;
+}
